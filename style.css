@@ -136,3 +136,36 @@ html{
   background: #667EEA;
   border-radius: 5px;
 }
+
+
+.social-footer {
+  padding: 2rem !important;
+  background: #ffffff !important;
+  display: -webkit-flex !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-align-items: center !important;
+      -ms-flex-align: center !important;
+          align-items: center !important;
+  -webkit-justify-content: space-between !important;
+      -ms-flex-pack: justify !important;
+          justify-content: space-between !important;
+}
+
+.social-footer .social-footer-icons li:last-of-type {
+  margin-right: 0 !important;
+}
+
+.social-footer .social-footer-icons .fa {
+  font-size: 1.3rem !important;
+  color: #fefefe !important;
+}
+
+.social-footer .social-footer-icons .fa:hover {
+  color: #4a4a4a !important;
+  transition: color 0.3s ease-in !important;
+}
+
+.social-footer-icons {
+  width: 600px !important;
+}
